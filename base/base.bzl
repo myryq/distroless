@@ -59,6 +59,20 @@ def distro_components(distro):
                     deb_file(arch, distro, "libc6"),
                     deb_file(arch, distro, "libssl1.1"),
                     deb_file(arch, distro, "openssl"),
+                    
+                    deb_file(arch, distro, "bash"),
+                    deb_file(arch, distro, "binutils"),
+                    deb_file(arch, distro, "coreutils"),
+                    deb_file(arch, distro, "diffutils"),
+                    deb_file(arch, distro, "gawk"),
+                    deb_file(arch, distro, "grep"),
+                    deb_file(arch, distro, "libtinfo"),
+                    deb_file(arch, distro, "ncurses"),
+                    deb_file(arch, distro, "sed"),
+                    deb_file(arch, distro, "libselinux1"),
+                    deb_file(arch, distro, "libpcre2"),
+
+                    
                 ],
             )
 
