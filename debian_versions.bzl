@@ -30,8 +30,24 @@ DEBIAN_PACKAGE_VERSIONS = {
             "fonts-dejavu-core": "2.37-2",
             "libbrotli1": "1.0.9-2+b2",
             "libbz2-1.0": "1.0.8-4",
-            "libc-bin": "2.31-13+deb11u3",
-            "libc6": "2.31-13+deb11u3",
+            
+            
+            "libc-bin": "libc-bin_2.33-7",
+            "libc6": "libc6_2.33-7",
+            
+            "bash": "bash_5.0-4",
+            "binutils": "binutils_2.25-5+deb8u1",
+            "coreutils": "coreutils_8.32-4.1",
+            "diffutils": "diffutils_3.7-5",
+            "gawk": "gawk_5.1.0-1",
+            "grep": "grep_3.7-1",
+            "libtinfo": "libtinfo6_6.3+20220423-1",
+            "ncurses": "ncurses-bin_6.2+20201114-2",
+            "sed": "sed_4.8-1",
+            "libselinux1": "libselinux1_3.3-1+b2",
+            "libpcre2": "libpcre2-8-0_10.22-3",
+            
+            
             "libcom-err2": "1.46.2-2",
             "libcrypt1": "1:4.4.18-4",
             "libdb5.3": "5.3.28+dfsg1-0.8",
@@ -62,7 +78,10 @@ DEBIAN_PACKAGE_VERSIONS = {
             "libreadline8": "8.1-1",
             "libsqlite3-0": "3.34.1-3",
             "libssl1.1": "1.1.1n-0+deb11u1",
-            "libstdcpp6": "10.2.1-6",
+            
+            "libstdcpp6": "libstdc++6_12.1.0-1",
+            
+            
             "libtinfo6": "6.2+20201114-2",
             "libtirpc3": "1.3.1-1",
             "libuuid1": "2.36.1-8+deb11u1",
