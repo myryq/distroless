@@ -81,12 +81,6 @@ def repositories():
         urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/o/openssl/libssl1.1_1.1.1n-0+deb10u1_amd64.deb"],
     )
     http_file(
-        name = "amd64_debian10_libstdcpp6",
-        downloaded_file_path = "libstdc++6_8.3.0-6_amd64.deb",
-        sha256 = "5cc70625329655ff9382580971d4616db8aa39af958b7c995ee84598f142a4ee",
-        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/g/gcc-8/libstdc++6_8.3.0-6_amd64.deb"],
-    )
-    http_file(
         name = "amd64_debian10_mime-support",
         downloaded_file_path = "mime-support_3.62_all.deb",
         sha256 = "776efd686af26fa26325450280e3305463b1faef75d82b383bb00da61893d8ca",
@@ -158,17 +152,103 @@ def repositories():
         sha256 = "16e27c3ebd97981e70db3733f899963362748f178a62644df69d1f247e741379",
         urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/b/bzip2/libbz2-1.0_1.0.8-4_amd64.deb"],
     )
+    
+    
+    
+    
+    
+    
+    
+    
+    
     http_file(
         name = "amd64_debian11_libc-bin",
-        downloaded_file_path = "libc-bin_2.31-13+deb11u3_amd64.deb",
-        sha256 = "2b85212a300c614627c5c7bf519f6570dfdd23e8b1d059a6ed522038eb34e437",
-        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/g/glibc/libc-bin_2.31-13+deb11u3_amd64.deb"],
+        downloaded_file_path = "libc-bin_2.33-7_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/g/glibc/libc-bin_2.33-7_amd64.deb"],
     )
     http_file(
         name = "amd64_debian11_libc6",
-        downloaded_file_path = "libc6_2.31-13+deb11u3_amd64.deb",
-        sha256 = "2f029f16c32a7cf0403f8038c1cc8decc9d3a5fadffe087be0dfa2235bec2564",
-        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/g/glibc/libc6_2.31-13+deb11u3_amd64.deb"],
+        downloaded_file_path = "libc6_2.33-7_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/g/glibc/libc6_2.33-7_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_bash",
+        downloaded_file_path = "bash_5.0-4_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/b/bash/bash_5.0-4_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_binutils",
+        downloaded_file_path = "binutils_2.25-5+deb8u1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/b/binutils/binutils_2.25-5+deb8u1_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_coreutils",
+        downloaded_file_path = "coreutils_8.32-4.1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/c/coreutils/coreutils_8.32-4.1_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_diffutils",
+        downloaded_file_path = "diffutils_3.7-5_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/d/diffutils/diffutils_3.7-5_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_gawk",
+        downloaded_file_path = "gawk_5.1.0-1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/g/gawk/gawk_5.1.0-1_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_grep",
+        downloaded_file_path = "grep_3.7-1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/g/grep/grep_3.7-1_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_libtinfo",
+        downloaded_file_path = "libtinfo6_6.3+20220423-1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/n/ncurses/libtinfo6_6.3+20220423-1_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_ncurses",
+        downloaded_file_path = "ncurses-bin_6.2+20201114-2_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/n/ncurses/ncurses-bin_6.2+20201114-2_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_sed",
+        downloaded_file_path = "sed_4.8-1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/s/sed/sed_4.8-1_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_libselinux1",
+        downloaded_file_path = "libselinux1_3.3-1+b2_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/libs/libselinux/libselinux1_3.3-1+b2_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_libpcre2",
+        downloaded_file_path = "libpcre2-8-0_10.22-3_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/p/pcre2/libpcre2-8-0_10.22-3_amd64.deb"],
+    )
+    
+    
+    
+    http_file(
+        name = "amd64_debian11_libstdcpp6",
+        downloaded_file_path = "libstdc++6_12.1.0-1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220510T034305Z/pool/main/g/gcc-12/libstdc++6_12.1.0-1_amd64.deb"],
+    )
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    http_file(
+        name = "amd64_debian10_libstdcpp6",
+        downloaded_file_path = "libstdc++6_8.3.0-6_amd64.deb",
+        sha256 = "5cc70625329655ff9382580971d4616db8aa39af958b7c995ee84598f142a4ee",
+        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/g/gcc-8/libstdc++6_8.3.0-6_amd64.deb"],
     )
     http_file(
         name = "amd64_debian11_libcom-err2",
@@ -349,12 +429,6 @@ def repositories():
         downloaded_file_path = "libssl1.1_1.1.1n-0+deb11u1_amd64.deb",
         sha256 = "a8491980086d3f2cc087662990c59a1c7e64b14014cf53d24977db0edfa2dd64",
         urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/o/openssl/libssl1.1_1.1.1n-0+deb11u1_amd64.deb"],
-    )
-    http_file(
-        name = "amd64_debian11_libstdcpp6",
-        downloaded_file_path = "libstdc++6_10.2.1-6_amd64.deb",
-        sha256 = "5c155c58935870bf3b4bfe769116841c0d286a74f59eccfd5645693ac23f06b1",
-        urls = ["https://snapshot.debian.org/archive/debian/20220505T211744Z/pool/main/g/gcc-10/libstdc++6_10.2.1-6_amd64.deb"],
     )
     http_file(
         name = "amd64_debian11_libtinfo6",
