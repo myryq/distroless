@@ -1,3 +1,5 @@
+bazel run //cc:cc_root_amd64_debian11
+
 # "Distroless" Container Images
 
 [![CI Build Status](https://github.com/GoogleContainerTools/distroless/actions/workflows/ci.yaml/badge.svg)](https://github.com/GoogleContainerTools/distroless/actions/workflows/ci.yaml)
