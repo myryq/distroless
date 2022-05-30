@@ -78,9 +78,13 @@ def distro_components(distro):
                     deb_file(arch, distro, "libsodium23"),
                     deb_file(arch, distro, "libacl"),
                     deb_file(arch, distro, "libgpm2"),
+                    deb_file(arch, distro, "libattr1"),
 
                     
                 ],
+                symlinks = {
+                    "/bin/sh": "/bin/bash"
+                }
             )
 
             # A debug image with busybox available.
