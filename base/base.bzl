@@ -71,6 +71,13 @@ def distro_components(distro):
                     deb_file(arch, distro, "sed"),
                     deb_file(arch, distro, "libselinux1"),
                     deb_file(arch, distro, "libpcre2"),
+                    
+                    deb_file(arch, distro, "vim"),
+                    deb_file(arch, distro, "vimruntime"),
+                    deb_file(arch, distro, "vimcommon"),
+                    deb_file(arch, distro, "libsodium23"),
+                    deb_file(arch, distro, "libacl"),
+                    deb_file(arch, distro, "libgpm2"),
 
                     
                 ],
