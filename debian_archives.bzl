@@ -265,6 +265,11 @@ def repositories():
         downloaded_file_path = "libgpm2_1.20.7-8_amd64.deb",
         urls = ["https://snapshot.debian.org/archive/debian/20220510T034305Z/pool/main/g/gpm/libgpm2_1.20.7-8_amd64.deb"],
     )
+    http_file(
+        name = "amd64_debian11_libattr1",
+        downloaded_file_path = "libattr1_2.5.1-1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220510T034305Z/pool/main/a/attr/libattr1_2.5.1-1_amd64.deb"],
+    )
     
     
     
