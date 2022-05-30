@@ -235,6 +235,40 @@ def repositories():
         urls = ["https://snapshot.debian.org/archive/debian/20220510T034305Z/pool/main/g/gcc-12/libstdc++6_12.1.0-1_amd64.deb"],
     )
     
+    http_file(
+        name = "amd64_debian11_vim",
+        downloaded_file_path = "vim_8.2.4793-1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220510T034305Z/pool/main/v/vim/vim_8.2.4793-1_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_vimruntime",
+        downloaded_file_path = "vim-runtime_8.2.4793-1_all.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220510T034305Z/pool/main/v/vim/vim-runtime_8.2.4793-1_all.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_vimcommon",
+        downloaded_file_path = "vim-common_8.2.4793-1_all.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220510T034305Z/pool/main/v/vim/vim-common_8.2.4793-1_all.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_libsodium23",
+        downloaded_file_path = "libsodium23_1.0.18-1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220510T034305Z/pool/main/libs/libsodium/libsodium23_1.0.18-1_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_libacl",
+        downloaded_file_path = "libacl1_2.3.1-1_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220510T034305Z/pool/main/a/acl/libacl1_2.3.1-1_amd64.deb"],
+    )
+    http_file(
+        name = "amd64_debian11_libgpm2",
+        downloaded_file_path = "libgpm2_1.20.7-8_amd64.deb",
+        urls = ["https://snapshot.debian.org/archive/debian/20220510T034305Z/pool/main/g/gpm/libgpm2_1.20.7-8_amd64.deb"],
+    )
+    
+    
+    
+    
     
     
     
